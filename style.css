@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+#result {
+   color: rgb(0, 255, 255);
+   margin-top: 1%;
+   margin-left: 570px;
+   font-size: 23px;
+ }
+ .container{
+border-radius: 10px;
+border-color: red;
+ }
+#entries {
+    margin-top: 340px;
+    color: rgb(255, 0, 111);
+    font-size: 25px;
+    margin-left: 630px;
+ }
+ #entries > #a {
+   height: 50px;
+   width: 200px;
+   border-color: red;
+   border-radius: 50px;
+ }
+ #entries > #a::placeholder{
+  text-align: center;
+  font-size: x-large;
+  font-weight:900;
+  color: burlywood;
+ }
+ #entries > #b {
+   height: 50px;
+   width: 200px;
+   border-color: red;
+   border-radius: 50px;
+ }
+ #entries > #b::placeholder{
+  text-align: center;
+  font-size: x-large;
+  font-weight:900;
+  color: burlywood;
+ }
+ #entries > #c {
+   height: 50px;
+   width: 200px;
+   border-color: red;
+   border-radius: 50px;
+   align-content: center;
+ }
+ #entries > #c::placeholder{
+  text-align: center;
+  font-size: x-large;
+  font-weight:900;
+  color: burlywood;
+ }
+ body{
+background-color:rgb(251, 255, 0);
+ }
+ #entries > #btn{
+   height: 60px;
+   margin-left: 50px;
+   width: 70px;
+   border-color: rgb(113, 12, 255);
+   border-radius: 100px;
+   overflow: hidden;
+   transition: all ease 0.5s;
+   font-family: cursive;
+ }
+ #entries > #btn:hover{
+transform:  scale(1.07);
+background-color: rgb(112, 2, 2);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: Bold;
+font-stretch: 1000px;
+ }
+ #box{
+  height: 300px;
+  width: 400px;
+  background-image: url(qe.jpg);
+  background-position: center;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin-top: -550px;
+  background-size: cover;
+ }
+ #bottom{
+  height: 40%;
+  width: 100%;
+  background: linear-gradient(to bottom ,transparent 15%, black);
+  position: absolute;
+  bottom: -40% ;
+  transition: all ease 0.5s;
+ }
+ #box:hover #bottom{
+  bottom: 0;
+ }
